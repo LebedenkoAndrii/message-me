@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg"  style="background-color: #3c096c;">
+  <div class="container-fluid ">
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav fw-semibold d-flex flex-row w-100 px-3 justify-content-between align-items-center text-white">
+            <div class="d-flex">
+              <li class="nav-item">
+              <%= link_to "Chatroom", root_path, class: "nav-link" %>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Messages</a>
+              </li>
+            </div>
+            <div class="d-flex">
+              <li class="nav-item">
+                  <div class="dropdown">
+                      <button class="btn dropdown-toggle fw-semibold" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #f2f3f4;">
+                          Account
+                      </button>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Sign up</a></li>
+                          <%= link_to "Log in", login_path, class: "dropdown-item" %>
+                          <li><a class="dropdown-item" href="#">Log out</a></li>
+                      </ul>
+                  </div>
+              </li>
+              <li class="nav-item ms-2">
+                  <%= link_to "Sign up", login_path, class: "nav-link btn btn-primary bg-primary text-white" %>
+              </li>
+            </div>
+      </ul>
+    </div>
+  </div>
+</nav>
