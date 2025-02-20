@@ -1,7 +1,23 @@
 @import "bootstrap/scss/bootstrap";
 @import "bootstrap-icons/font/bootstrap-icons";
 
+$purple: #3c096c;
+
 .nav-link,
 .nav-item {
   color: #f2f3f4;
+}
+.active {
+  background-color: $purple;
+}
+.divider {
+  width: 2px;
+  height: 100%;
+  background-color: black;
+}
+.bg-purple {
+  background-color: #3c096c;
+}
+.bg-purple:hover {
+  background: #560d9a;
 }
