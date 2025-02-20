@@ -1,0 +1,11 @@
++----+----------+--------------------------------------------------------------+-------------------------+-------------------------+
+| id | username | password_digest                                              | created_at              | updated_at              |
++----+----------+--------------------------------------------------------------+-------------------------+-------------------------+
+| 1  | Andrii   | $2a$12$W/HS0l//zG.vtRw.aoODSObxf8tQu3h44L70QsIDme2pde3oYzFju | 2025-02-20 22:57:49 UTC | 2025-02-20 22:57:49 UTC |
+| 2  | Andrii   | $2a$12$lNyKSKGv69uKh1lWWbTVeugGaEcNwYlbUDsubggIqsOD7gZF1HwsO | 2025-02-20 23:00:00 UTC | 2025-02-20 23:00:00 UTC |
+| 3  | John     | $2a$12$E5skAlGz.fpNdecERyuZdupUatpb0AoMLFZvWYxDAkdNEfxMl39FC | 2025-02-20 23:00:01 UTC | 2025-02-20 23:00:01 UTC |
+| 4  | Bob      | $2a$12$jjLyLKmHLA6WsVbJQOQxHuAZ7q2lUcEUsbqCRcDd2bP/b0JlaSzVu | 2025-02-20 23:00:01 UTC | 2025-02-20 23:00:01 UTC |
+| 5  | Kevin    | $2a$12$Bw67sJbU5WCJ/UmDHOM61eQ.2CJpprI6r0BsW2jiPamwpcO6nQhwu | 2025-02-20 23:00:01 UTC | 2025-02-20 23:00:01 UTC |
+| 6  | Max      | $2a$12$sdqQSZzqB1HTB0aw7mztSeC0icEH3K71fvD97YOaoSDrr8h9nyinS | 2025-02-20 23:00:01 UTC | 2025-02-20 23:00:01 UTC |
++----+----------+--------------------------------------------------------------+-------------------------+-------------------------+
+6 rows in set
