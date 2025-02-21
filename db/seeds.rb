@@ -8,7 +8,6 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-User.create(username: "Andrii", password: "www123")
 User.create(username: "John", password: "www123")
 User.create(username: "Bob", password: "www123")
 User.create(username: "Kevin", password: "www123")
